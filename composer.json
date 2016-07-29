@@ -1,0 +1,12 @@
+{
+    "name": "jl6m/swagger-lite",
+    "description": "Guzzle client that can execute operations defined in Swagger",
+    "license": "MIT",
+    "keywords": ["swagger", "guzzle", "openapi", "http", "client", "rest", "api"],
+    "require": {
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {"JL6m\\Guzzle\\SwaggerLite\\": "src/"}
+    }
+}
